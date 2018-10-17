@@ -28,7 +28,7 @@
             <div class="small-box bg-info">
               <div class="inner">
                <div style="position:relative">
-                 <h3 style="right:100%">150</h3>
+                 <h3 style="right:100%"><?php echo $count_key ?></h3>
                  <b style="left:100%">Keyword</b>
                </div>
               </div>
@@ -42,7 +42,7 @@
             <!-- small box -->
             <div class="small-box bg-success">
               <div class="inner">
-                <h3><?php echo $link ?><sup style="font-size: 20px"></sup></h3>
+                <h3><?php echo $count_link ?><sup style="font-size: 20px"></sup></h3>
 
                 <b>Link</b>
                 
@@ -57,7 +57,7 @@
             <!-- small box -->
             <div class="small-box bg-warning">
               <div class="inner">
-                <h3>44</h3>
+                <h3><?php echo $count_mail ?></h3>
 
                 <b>Email Tujuan</b>
               </div>
@@ -72,7 +72,7 @@
             <!-- small box -->
             <div class="small-box bg-danger">
               <div class="inner">
-                <h3>44</h3>
+                <h3><?php echo $count_kategori ?></h3>
 
                 <b>kategori</b>
               </div>

@@ -30,7 +30,7 @@ Inspirations:
 
 <?php
   session_start();
-  include "models/database.php";
+  include "models/db.php";
 
   $sql = "SELECT * FROM admin";
   $result = mysqli_query($connect, $sql);
