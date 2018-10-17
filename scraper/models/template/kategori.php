@@ -6,7 +6,7 @@
     } else{
     
     include "../../views/header.php";
-    include "../../views/content/link.php";
+    include "../../views/content/kategori.php";
     include "../../views/footer.php";
 
 
