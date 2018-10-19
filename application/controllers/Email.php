@@ -6,7 +6,7 @@
     
         public function index()
         {
-            $this->load->view('head');
+            $this->load->view('header');
             $this->load->view('content/email.php');        
             $this->load->view('footer');
         }
